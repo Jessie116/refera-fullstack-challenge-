@@ -1,0 +1,14 @@
+{
+  "stages": {
+    "dev": {
+      "autogen_policy": false,
+      "api_gateway_stage": "api",
+      "environment_variables": {
+        "APP_TABLE_NAME": "order-app-cad3c9b5-f361-4417-bf5d-931ac2c1e2d2",
+        "USERS_TABLE_NAME": "users-app-1617fcba-d645-43a5-a8a5-966219392c22"
+      }
+    }
+  },
+  "version": "2.0",
+  "app_name": "refera"
+}

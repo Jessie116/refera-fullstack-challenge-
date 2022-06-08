@@ -1,0 +1,27 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+      {
+          "Sid": "VisualEditor0",
+          "Effect": "Allow",
+          "Action": [
+              "logs:CreateLogStream",
+              "dynamodb:PutItem",
+              "dynamodb:DeleteItem",
+              "dynamodb:GetItem",
+              "dynamodb:Scan",
+              "dynamodb:Query",
+              "dynamodb:UpdateItem",
+              "ssm:GetParameter",
+              "logs:CreateLogGroup",
+              "logs:PutLogEvents"
+          ],
+          "Resource": [
+              "arn:aws:ssm:*:*:parameter/todo-sample-app/auth-key",
+              "arn:aws:logs:*:*:*",
+              "arn:aws:dynamodb:*:*:table/order-app-*",
+              "arn:aws:dynamodb:*:*:table/users-app-*"
+          ]
+      }
+  ]
+}

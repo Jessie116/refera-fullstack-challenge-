@@ -1,0 +1,34 @@
+{
+  "resources": [
+    {
+      "name": "api_handler_role",
+      "resource_type": "iam_role",
+      "role_arn": "arn:aws:iam::491665866244:role/refera-dev-api_handler",
+      "role_name": "refera-dev-api_handler"
+    },
+    {
+      "name": "api_handler",
+      "resource_type": "lambda_function",
+      "lambda_arn": "arn:aws:lambda:us-east-1:491665866244:function:refera-dev"
+    },
+    {
+      "name": "jwt_auth_role",
+      "resource_type": "iam_role",
+      "role_arn": "arn:aws:iam::491665866244:role/refera-dev-jwt_auth",
+      "role_name": "refera-dev-jwt_auth"
+    },
+    {
+      "name": "jwt_auth",
+      "resource_type": "lambda_function",
+      "lambda_arn": "arn:aws:lambda:us-east-1:491665866244:function:refera-dev-jwt_auth"
+    },
+    {
+      "name": "rest_api",
+      "resource_type": "rest_api",
+      "rest_api_id": "28pr9svp46",
+      "rest_api_url": "https://28pr9svp46.execute-api.us-east-1.amazonaws.com/api/"
+    }
+  ],
+  "schema_version": "2.0",
+  "backend": "api"
+}
