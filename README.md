@@ -11,7 +11,7 @@ The main component of this application is a REST API backed by Amazon API Gatewa
 
 Architecture Diagram 
 
-
+https://refera-challenge.s3.eu-west-2.amazonaws.com/diagram.JPG
 
 REST API
 The REST API supports the following resources:
